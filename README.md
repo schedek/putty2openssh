@@ -4,15 +4,15 @@ PuTTY2OpenSSH exports PuTTY sessions from the Windows registry to OpenSSH config
 
 This tool helps to migrate large number of saved PuTTY configuration in bulk.
 
-# Install
+## Install
 
 The script is written in python. You need a python3 to run it.
 
-# Example usage
+## Example usage
 
 	python putty2openssh.py > .ssh/config
 	
-# Limitations
+## Limitations
 
 Only PuTTY SSH sessions are supported. Other protocols are ignored. This is not going to change as the output format is OpenSSH config file.
 
