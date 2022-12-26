@@ -31,7 +31,7 @@ from common import *
 from winreg import *
 
 # List of modules, one module generates a line in openssh config
-openssh_section_modules = ["HostName","Port"]
+openssh_section_modules = ["User","HostName","Port","ProxyJump","ForwardAgent","X11Forward","PortForwardings"]
 		
 # Test for session minimal requirements to be placed to output
 def putty_is_session_valid(k):
