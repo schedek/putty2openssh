@@ -18,3 +18,15 @@ Only PuTTY SSH sessions are supported. Other protocols are ignored. This is not 
 
 Not all PuTTY/OpenSSH options are supported. Check the modules directory for details. Feel free to contribute by adding support to other options. PRs are welcome.
 
+### Supported configuration directives
+
+- HostName
+- Port
+- User
+- ProxyJump
+- LocalForward
+- RemoteForward
+- DynamicForward
+- ForwardAgent
+- X11Forward yes/no
+
